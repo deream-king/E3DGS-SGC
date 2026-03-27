@@ -46,7 +46,7 @@ python utils/make_depth_scale.py --base_dir <path_to_colmap> --depths_dir <path_
 Training
 Start the training process by specifying the source data and output model path:
 ```
-python train.py -s <dataset_path> -m <model_path> -r <factor>
+python train.py -s <dataset_path> -d <depth_path> -m <model_path> -r <factor>
 ```
 Rendering
 To render images from a trained model:
