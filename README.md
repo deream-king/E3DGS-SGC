@@ -15,13 +15,13 @@ conda env create --file environment.yml
 conda activate E3DGS-SGC
 ```
 Install the necessary rasterization and KNN submodules:
-###For Linux/macOS
+For Linux/macOS
 ```
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
 ```
 
-###For Windows
+For Windows
 ```
 pip install submodules\diff-gaussian-rasterization
 pip install submodules\simple-knn
