@@ -42,6 +42,7 @@ Use the provided utility script to scale the depth:
 python utils/make_depth_scale.py --base_dir <path_to_colmap> --depths_dir <path_to_generated_depths>
 ```
 ##Usage
+
 Training
 Start the training process by specifying the source data and output model path:
 ```
