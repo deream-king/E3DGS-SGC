@@ -7,11 +7,11 @@ Official implementation of the paper: **"Enhancing 3D Gaussian Splatting for Dyn
 ## 🛠️ Installation
 
 ### 1. Clone the Repositor
-`git clone [https://github.com/deream-king/E3DGS-SGC.git](https://github.com/deream-king/E3DGS-SGC.git)
+```git clone [https://github.com/deream-king/E3DGS-SGC.git](https://github.com/deream-king/E3DGS-SGC.git)
 cd E3DGS-SGC
-We recommend using Conda to manage your environment:
+#We recommend using Conda to manage your environment:
 conda env create --file environment.yml
-conda activate E3DGS-SGC`
+conda activate E3DGS-SGC```
 Install the necessary rasterization and KNN submodules:
 ###For Linux/macOS
 `pip install submodules/diff-gaussian-rasterization
