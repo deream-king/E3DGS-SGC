@@ -7,19 +7,19 @@ Official implementation of the paper: **"Enhancing 3D Gaussian Splatting for Dyn
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
-git clone [https://github.com/deream-king/E3DGS-SGC.git](https://github.com/deream-king/E3DGS-SGC.git)
-cd E3DGS-SGC
+'git clone [https://github.com/deream-king/E3DGS-SGC.git](https://github.com/deream-king/E3DGS-SGC.git)'
+'cd E3DGS-SGC'
 We recommend using Conda to manage your environment:
-conda env create --file environment.yml
-conda activate E3DGS-SGC
+'conda env create --file environment.yml'
+'conda activate E3DGS-SGC'
 Install the necessary rasterization and KNN submodules:
 # For Linux/macOS
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
 
 # For Windows
-# pip install submodules\diff-gaussian-rasterization
-# pip install submodules\simple-knn
+pip install submodules\diff-gaussian-rasterization
+pip install submodules\simple-knn
 We utilize depth maps as an additional feature to identify moving objects. For real-world datasets, you must generate depth maps for each input image:
 Clone Depth Anything v2:
 git clone [https://github.com/DepthAnything/Depth-Anything-V2.git](https://github.com/DepthAnything/Depth-Anything-V2.git)
